@@ -31,6 +31,21 @@ for (let n=1; n <= 100; n = n + 1) {
     console.log(box, typeof box);
     box.innerHTML = `${message}`;
 
+    if (message == 'Fizz') {
+        box.className = `size blue`;
+    }
+    else if (message == 'Buzz') {
+        box.className = `size yellow`;
+    }
+
+    else if (message == 'FizzBuzz') {
+        box.className = `size fucsia`;
+    }
+
+    else if (message == n) {
+        box.className = `size green`;
+    }
+    
     container.append(box);
     
 
