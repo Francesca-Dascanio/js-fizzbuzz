@@ -22,3 +22,7 @@ Istruzioni JS:
 - Tutti i numeri multipli sia di 3 sia di 5 devono comparire con il testo "FizzBuzz"
       - verificare i numeri sono multipli di 3 e di 5
         - se il numero x è multiplo di 3 e di 5, allora si stampa "Fizz" / altrimenti resta numero
+
+
+BONUS 1:
+Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un elemento html con il numero o la stringa corretta da mostrare.
